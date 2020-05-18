@@ -1,5 +1,9 @@
 console.log ('Hello There Friends!');
 
+var doCoolStuff = function(){
+    document.getElementById('cool').className = 'cool red'; 
+}
+
 var sayMyName = function (name) {
     alert('Mi nonmbre es: '+ name);
 }
